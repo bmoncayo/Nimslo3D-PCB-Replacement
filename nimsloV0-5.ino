@@ -1,12 +1,12 @@
 // Definir los pines de conexión
 const int lightPin = A0;      // Pin analógico para el fotorresistor
-const int buttonDisparador = 5;     // Pin digital para el botón
+const int buttonDisparador = 5;     // Pin digital para el botón disparador
 const int shutterPin = 6;    // Pin digital para el obturador
-const int ledflashtrue = 7;        // Pin digital para el LED indicador
-const int ledflashfalse = 8;
-const int buttonObturador = 9;
-const int ledmarcador = 10;
-const int releflash = 11;
+const int ledflashtrue = 7;        // Pin digital para el LED indicador de flash
+const int ledflashfalse = 8;        // Pin digital para el LED indicador de flash
+const int buttonObturador = 9;      // Pin digital para indicar que el obturador está cargado
+const int ledmarcador = 10;         // Pin digital para el LED que marca el film
+const int releflash = 11;          // Relé para flash
 int shutterSpeed = 0;        // Variable para almacenar la velocidad de obturación
 
 void setup() {
